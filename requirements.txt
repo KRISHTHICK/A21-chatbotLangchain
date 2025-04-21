@@ -1,0 +1,8 @@
+# How to Run This Chatbot
+# Start Ollama model (e.g., LLaMA 3):
+ollama run llama3
+
+# Install requirements:
+pip install streamlit langchain ollama
+# Run the app:
+streamlit run your_chatbot.py
